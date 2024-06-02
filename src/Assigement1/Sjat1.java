@@ -209,6 +209,68 @@ public class Sjat1 {
 	        }
 	        System.out .println("");
 	        Thread.sleep(3000);
+
+		System.out .println("******Filters Function Verified*******");
+	        System.out .println("");
+
+	        System.out .println("Verifying menu functions.....");
+	        System.out .println("");
+
+	        driver.findElement(By.xpath("//button[normalize-space()='Open Menu']")).click(); 
+	        Thread.sleep(3000);
+	        WebElement Allitems = driver.findElement(By.linkText("All Items"));
+	        if (Allitems.isDisplayed() &&Allitems.isEnabled()) {
+	        	driver.findElement(By.linkText("All Items")).click();
+	            
+	            System.out.println("Menu All Items is verified ");            
+	            		
+	        } else {
+	            System.out.println("Menu All Items is not verified ");
+	            
+	        }
+	        System.out .println("");
+	       
+	        
+
+	        Thread.sleep(5000);
+	        driver.findElement(By.xpath("//button[normalize-space()='Open Menu']")).click(); 
+	        Thread.sleep(3000);
+	        WebElement about = driver.findElement(By.linkText("About"));
+	        if (about.isDisplayed() &&about.isEnabled()) {
+	        	driver.findElement(By.linkText("About")).click();
+	            
+	            System.out.println("Menu About is verified ");            
+	            		
+	        } else {
+	            System.out.println("Menu About is not verified ");
+	            
+	        }
+	        System.out .println("");
+	        
+	        System.out.println("Menu Function is verified ");
+	        
+	        driver.navigate().back();
+	        Thread.sleep(5000);
+	        driver.navigate().back();
+	        System.out .println("");
+	        	       
+	        String Main_Title=driver.getTitle();
+	        
+	        if(Main_Title.equals("Swag Labs")) {
+	        	
+	        	System.out.println("Title is Verified");
+	        }
+	        else {
+	        	System.out.println("Title is not Verified");
+	        }
+		    
+	        
+	        System.out .println("");
+	        System.out.println("*********Assinment 1 web automation test Done by SAIRAM*********");
+		    driver.quit();
+		   
+
+ 
 	}
 
 }
