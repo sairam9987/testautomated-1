@@ -264,11 +264,7 @@ public class Sjat1 {
 	        	System.out.println("Title is not Verified");
 	        }
 		    
-	        
-	        System.out .println("");
-	        System.out.println("*********Assinment 1 web automation test Done by SAIRAM*********");
-		    driver.quit();
-		   
+	    
 
  
 	}
