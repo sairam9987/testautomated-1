@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="22" passed="22" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-05-20T00:23:31 IST" name="Default suite" finished-at="2024-05-20T00:24:37 IST" duration-ms="65957">
+    <groups>
+    </groups>
+    <test started-at="2024-05-20T00:23:31 IST" name="Default test" finished-at="2024-05-20T00:24:37 IST" duration-ms="65957">
+      <class name="Assigement2.webtest1">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Assigement2.webtest1@4efac082]" started-at="2024-05-20T00:23:31 IST" name="setUp" finished-at="2024-05-20T00:23:38 IST" duration-ms="7494" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginpage1()[pri:1, instance:Assigement2.webtest1@4efac082]" started-at="2024-05-20T00:23:38 IST" name="loginpage1" finished-at="2024-05-20T00:23:42 IST" duration-ms="4249" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginpage1 -->
+        <test-method signature="navabout()[pri:2, instance:Assigement2.webtest1@4efac082]" started-at="2024-05-20T00:23:42 IST" name="navabout" finished-at="2024-05-20T00:23:56 IST" duration-ms="13934" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navabout -->
+        <test-method signature="productmenu()[pri:3, instance:Assigement2.webtest1@4efac082]" started-at="2024-05-20T00:23:56 IST" name="productmenu" finished-at="2024-05-20T00:24:00 IST" duration-ms="3268" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productmenu -->
+        <test-method signature="paltform_for_test1()[pri:4, instance:Assigement2.webtest1@4efac082]" started-at="2024-05-20T00:24:00 IST" name="paltform_for_test1" finished-at="2024-05-20T00:24:03 IST" duration-ms="3283" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- paltform_for_test1 -->
+        <test-method signature="paltform_for_tes_sub()[pri:5, instance:Assigement2.webtest1@4efac082]" started-at="2024-05-20T00:24:03 IST" name="paltform_for_tes_sub" finished-at="2024-05-20T00:24:06 IST" duration-ms="3126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- paltform_for_tes_sub -->
+        <test-method signature="paltform_for_sub1()[pri:6, instance:Assigement2.webtest1@4efac082]" started-at="2024-05-20T00:24:06 IST" name="paltform_for_sub1" finished-at="2024-05-20T00:24:06 IST" duration-ms="237" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- paltform_for_sub1 -->
+        <test-method signature="paltform_for_test_subst1()[pri:7, instance:Assigement2.webtest1@4efac082]" started-at="2024-05-20T00:24:06 IST" name="paltform_for_test_subst1" finished-at="2024-05-20T00:24:09 IST" duration-ms="3174" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- paltform_for_test_subst1 -->
+        <test-method signature="paltform_for_testsub33()[pri:8, instance:Assigement2.webtest1@4efac082]" started-at="2024-05-20T00:24:09 IST" name="paltform_for_testsub33" finished-at="2024-05-20T00:24:13 IST" duration-ms="3177" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- paltform_for_testsub33 -->
+        <test-method signature="paltform_for_test_subst2()[pri:9, instance:Assigement2.webtest1@4efac082]" started-at="2024-05-20T00:24:13 IST" name="paltform_for_test_subst2" finished-at="2024-05-20T00:24:16 IST" duration-ms="3179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- paltform_for_test_subst2 -->
+        <test-method signature="paltform_for_testsub4()[pri:10, instance:Assigement2.webtest1@4efac082]" started-at="2024-05-20T00:24:16 IST" name="paltform_for_testsub4" finished-at="2024-05-20T00:24:16 IST" duration-ms="206" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- paltform_for_testsub4 -->
+        <test-method signature="paltform_for_test_subst5()[pri:11, instance:Assigement2.webtest1@4efac082]" started-at="2024-05-20T00:24:16 IST" name="paltform_for_test_subst5" finished-at="2024-05-20T00:24:19 IST" duration-ms="3147" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- paltform_for_test_subst5 -->
+        <test-method signature="paltform_for_testsub34()[pri:12, instance:Assigement2.webtest1@4efac082]" started-at="2024-05-20T00:24:19 IST" name="paltform_for_testsub34" finished-at="2024-05-20T00:24:19 IST" duration-ms="211" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- paltform_for_testsub34 -->
+        <test-method signature="paltform_for_test_subst6()[pri:13, instance:Assigement2.webtest1@4efac082]" started-at="2024-05-20T00:24:19 IST" name="paltform_for_test_subst6" finished-at="2024-05-20T00:24:23 IST" duration-ms="3134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- paltform_for_test_subst6 -->
+        <test-method signature="paltform_for_testsub7()[pri:14, instance:Assigement2.webtest1@4efac082]" started-at="2024-05-20T00:24:23 IST" name="paltform_for_testsub7" finished-at="2024-05-20T00:24:23 IST" duration-ms="258" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- paltform_for_testsub7 -->
+        <test-method signature="paltform_for_test_subst7()[pri:15, instance:Assigement2.webtest1@4efac082]" started-at="2024-05-20T00:24:23 IST" name="paltform_for_test_subst7" finished-at="2024-05-20T00:24:26 IST" duration-ms="3136" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- paltform_for_test_subst7 -->
+        <test-method signature="paltform_for_testsub8()[pri:16, instance:Assigement2.webtest1@4efac082]" started-at="2024-05-20T00:24:26 IST" name="paltform_for_testsub8" finished-at="2024-05-20T00:24:26 IST" duration-ms="191" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- paltform_for_testsub8 -->
+        <test-method signature="paltform_for_test_subst9()[pri:17, instance:Assigement2.webtest1@4efac082]" started-at="2024-05-20T00:24:26 IST" name="paltform_for_test_subst9" finished-at="2024-05-20T00:24:29 IST" duration-ms="3126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- paltform_for_test_subst9 -->
+        <test-method signature="paltform_for_testsub9()[pri:18, instance:Assigement2.webtest1@4efac082]" started-at="2024-05-20T00:24:29 IST" name="paltform_for_testsub9" finished-at="2024-05-20T00:24:29 IST" duration-ms="182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- paltform_for_testsub9 -->
+        <test-method signature="paltform_for_test_subst10()[pri:19, instance:Assigement2.webtest1@4efac082]" started-at="2024-05-20T00:24:29 IST" name="paltform_for_test_subst10" finished-at="2024-05-20T00:24:33 IST" duration-ms="3127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- paltform_for_test_subst10 -->
+        <test-method signature="paltform_for_testsub10()[pri:20, instance:Assigement2.webtest1@4efac082]" started-at="2024-05-20T00:24:33 IST" name="paltform_for_testsub10" finished-at="2024-05-20T00:24:33 IST" duration-ms="208" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- paltform_for_testsub10 -->
+        <test-method signature="paltform_for_test_subsft()[pri:21, instance:Assigement2.webtest1@4efac082]" started-at="2024-05-20T00:24:33 IST" name="paltform_for_test_subsft" finished-at="2024-05-20T00:24:36 IST" duration-ms="3136" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- paltform_for_test_subsft -->
+        <test-method signature="paltform_for_testsub11()[pri:22, instance:Assigement2.webtest1@4efac082]" started-at="2024-05-20T00:24:36 IST" name="paltform_for_testsub11" finished-at="2024-05-20T00:24:37 IST" duration-ms="590" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- paltform_for_testsub11 -->
+      </class> <!-- Assigement2.webtest1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
