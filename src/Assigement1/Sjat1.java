@@ -101,6 +101,36 @@ public class Sjat1 {
 	        }
 	        System.out .println("");
 
+		    
+		    WebElement currencyElement1 = driver.findElement(By.className("inventory_details_price"));
+	        String currencyText1 = currencyElement1.getText();
+	        if (currencyText1.contains("$")) {
+	            System.out.println(" Jacket Currency is verified ");
+	        } else {
+	            System.out.println(" Jacket Currency is not verified ");
+	        }
+	        System.out .println("");
+	        Thread.sleep(3000);
+	        
+	        WebElement addToCartButton1 = driver.findElement(By.xpath("//button[normalize-space()='ADD TO CART']"));
+	        if (addToCartButton1.isDisplayed() && addToCartButton1.isEnabled()) {
+	            System.out.println(" Jacket Add to Cart button is verified ");
+	            driver.findElement(By.xpath("//button[normalize-space()='ADD TO CART']")).click();
+	        } else {
+	            System.out.println(" Jacket Add to Cart button not verified ");
+	            
+	        }
+	        System.out .println("");
+			Thread.sleep(3000); 
+			
+			WebElement removeButton1 = driver.findElement(By.xpath("//button[normalize-space()='REMOVE']"));
+	        if (removeButton1.isDisplayed() && removeButton1.isEnabled()) {
+	            System.out.println(" Jacket Remove button is verified ");
+	            driver.findElement(By.xpath("//button[normalize-space()='REMOVE']")).click();
+	        } else {
+	            System.out.println(" Jacket Remove button not verified ");
+	           
+	        }
 		
 	}
 
