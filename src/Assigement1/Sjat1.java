@@ -131,6 +131,33 @@ public class Sjat1 {
 	            System.out.println(" Jacket Remove button not verified ");
 	           
 	        }
+
+
+		Thread.sleep(3000);
+		    System.out .println("");
+		    
+		    System.out .println("******Product Jacket is verified********");
+		    
+		    driver.navigate().back();
+		    
+		    System.out.println("Verifying Filters Functions......");
+		    System.out.println("");
+		    
+		    driver.findElement(By.xpath("//select[@class='product_sort_container']")).click();
+		    Thread.sleep(3000);
+		    WebElement Nameatoz = driver.findElement(By.xpath("//option[@value='az']"));
+	        if (Nameatoz.isDisplayed() &&Nameatoz.isEnabled()) {
+	        	driver.findElement(By.xpath("//option[@value='az']")).click();
+	            
+	            if(Nameatoz.isDisplayed() && Nameatoz.isSelected()) {
+	            	System.out.println("Filter Name(A-Z)is verified  ");
+	            }                
+	            		
+	        } else {
+	            System.out.println(" Filter Name(A-Z)is not verified ");
+	            
+	        }
+	        System.out .println("");
 		
 	}
 
