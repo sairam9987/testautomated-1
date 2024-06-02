@@ -158,7 +158,57 @@ public class Sjat1 {
 	            
 	        }
 	        System.out .println("");
-		
+
+		   Thread.sleep(3000);
+            driver.findElement(By.xpath("//select[@class='product_sort_container']")).click();
+            Thread.sleep(3000);
+		    WebElement Nameztoa = driver.findElement(By.xpath("//option[@value='za']"));
+	        if (Nameztoa.isDisplayed() &&Nameztoa.isEnabled()) {
+	        	driver.findElement(By.xpath("//option[@value='za']")).click();
+	            
+	            if(Nameztoa.isDisplayed() && Nameztoa.isSelected()) {
+	            	System.out.println(" Filter Name(Z-A)is verified ");
+	            }                
+	            		
+	        } else {
+	            System.out.println("Filter Name(Z-A)is not verified ");
+	            
+	        }
+	        System.out .println("");
+	        Thread.sleep(3000);
+            driver.findElement(By.xpath("//select[@class='product_sort_container']")).click();
+            Thread.sleep(3000);
+		    WebElement pricelowtohigh = driver.findElement(By.xpath("//option[@value='lohi']"));
+	        if (pricelowtohigh.isDisplayed() &&pricelowtohigh.isEnabled()) {
+	        	driver.findElement(By.xpath("//option[@value='lohi']")).click();
+	            
+	            if(pricelowtohigh.isDisplayed() && pricelowtohigh.isSelected()) {
+	            	System.out.println("Filter Price(low to high)is verified ");
+	            }                
+	            		
+	        } else {
+	            System.out.println("Filter Price(low to high)is not verified ");
+	            
+	        }
+	        System.out .println("");
+	        Thread.sleep(3000);
+	        
+            driver.findElement(By.xpath("//select[@class='product_sort_container']")).click();
+            Thread.sleep(3000);
+		    WebElement pricehightolow = driver.findElement(By.xpath("//option[@value='hilo']"));
+	        if (pricehightolow.isDisplayed() &&pricehightolow.isEnabled()) {
+	        	driver.findElement(By.xpath("//option[@value='hilo']")).click();
+	            
+	            if(pricehightolow.isDisplayed() && pricehightolow.isSelected()) {
+	            	System.out.println("Filter Price(high to low)is verified ");
+	            }                
+	            		
+	        } else {
+	            System.out.println("Filter Price(high to low)is not verified ");
+	            
+	        }
+	        System.out .println("");
+	        Thread.sleep(3000);
 	}
 
 }
